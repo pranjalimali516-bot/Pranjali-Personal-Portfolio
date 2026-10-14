@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pranjali Mali — Personal Portfolio</title>
+  <style>
+    :root{--bg:#f7f7fb;--card:#ffffff;--accent:#6c63ff;--text:#222}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:var(--bg);color:var(--text);margin:0;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:24px}
+    .card{background:var(--card);border-radius:12px;box-shadow:0 8px 30px rgba(20,20,50,0.06);max-width:760px;width:100%;padding:28px;display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#b89bff);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:36px}
+    h1{margin:0;font-size:1.25rem}
+    p{margin:8px 0 0 0;line-height:1.45}
+    .meta{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap}
+    .pill{background:#f0f2ff;color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:600;font-size:0.9rem}
+    .contact a{display:inline-block;background:var(--accent);color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600}
+    footer{margin-top:18px;font-size:0.85rem;color:#555}
+    @media (max-width:560px){.card{grid-template-columns:1fr;text-align:center}.meta{justify-content:center}.avatar{margin:0 auto}}
+  </style>
+</head>
+<body>
+  <main class="card" role="main">
+    <div class="avatar" aria-hidden="true">PM</div>
+
+    <div>
+      <h1>Pranjali Mali</h1>
+      <p>Hi — I'm Pranjali. I enjoy singing and creating small web projects. This is a compact personal portfolio template you can expand.</p>
+
+      <div class="meta" aria-hidden="false">
+        <div class="pill">Hobby: Singing</div>
+        <div class="pill">Location: (your city)</div>
+      </div>
+
+      <section class="contact" style="margin-top:14px">
+        <a href="mailto:pranjali123@gmail.com">Email: pranjali123@gmail.com</a>
+      </section>
+
+      <footer>
+        <strong>Quick tips:</strong> Replace the avatar, add projects below, and link social profiles. Save as index.html and open it to view.
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
